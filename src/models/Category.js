@@ -13,7 +13,7 @@ const Category = sequelize.define('Category', {
     validate: {
       notEmpty: true,
       len: [2, 100]
-    }
+    } 
   }
 }, {
   tableName: 'categories',
